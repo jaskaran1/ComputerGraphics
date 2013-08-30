@@ -1,0 +1,33 @@
+Coordinate system restrictions:
+-1000<x<1000
+-1000<y<1000
+
+Description of file input.txt
+
+1)It contains 16 line segments and 2 triangles.
+2)Both triangles have been color interpolated.
+3)The lines which lie within the octants are color interpolated.
+4)The 16 lines show all possible slope cases(moving in anticlockwise direction):
+a)y=0,x>0
+b)y=x/2,x>0
+c)y=x,x>0
+d)y=2x,x>0
+e)x=0,y>0
+f)y=-2x,x<0
+g)y=-x,x<0
+h)y=-x/2,x<0
+i)y=0,x<0
+j)y=x/2,x<0
+k)y=x,x<0
+l)y=2x,x<0
+m)x=0,y<0
+n)y=-2x,x>0
+o)y=-x,x>0
+p)y=-x/2,x>0
+
+Implementation notes:
+
+1)Bresenham algorithm for |m|>1 has been implemented by reflecting the given line along y=x in case of m>1 and y=-x in case of m<-1.After applying the bresenham algorithm on these reflected lines I reflect these lines back to get the original lines.
+
+2)Rasterization of triangle has been implemented by line-sweep.
+The line chosen is x=a ie a vertical line which sweeps the entire triangle from the point having minimum x coordinate to the point having maximum x coordinate.As we move from left to right the point of intersection of the sweep line with the triangles edges is found and then these intersection points are connected using bresenham's algorithm to draw an interpolated line between these points.Thus the interior of the triangle is filled by these line segments.   
