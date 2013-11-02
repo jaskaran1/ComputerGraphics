@@ -1,0 +1,8 @@
+This is an implementation of raytracer with Phong illumination.
+It doesn't have code for reflection since the input files didn't have any reflectivity constants.
+
+To run program write on terminal in the program directory
+After unzipping folder
+>>make
+>>./Raytracer filename.scene
+3)Current resolution set is 320x240 for fast rendering.Can be changed by changing the WIDTH and HEIGHT.

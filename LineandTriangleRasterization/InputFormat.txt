@@ -1,0 +1,22 @@
+//start of file
+
+numLines //integral number of lines in the file (always on first line of file)
+
+//begin a line
+x1 y1 r1 g1 b1 a1
+x2 y2 r2 g2 b2 a2
+//end a line
+
+//total of numLines lines
+
+numTriangles //integral number of triangles in the file
+
+//begin a triangle
+x1 y1 r1 g1 b1 a1 //vertex at (x1,y1) with color (r1,g1,b1,a1)
+x2 y2 r2 g2 b2 a2 //vertex at (x2,y2) with color (r2,g2,b2,a2)
+x3 y3 r3 g3 b3 a3 //vertex at (x3,y3) with color (r3,g3,b3,a3)
+//end a triangle
+
+//total of numTriangles triangles
+
+//end of file

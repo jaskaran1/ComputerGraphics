@@ -1,0 +1,32 @@
+This is my implementation of transformations like translation,rotation and scaling and my own implementation of glulookat().(which in my code is mylookat()).
+
+Control keys:
+1)a/A-moves camera along current look direction
+2)x/X-moves the camera position along x
+3)y/Y-moves the camera position along y
+4)z/Z-moves the camera position along z
+5)i/I-rotate camera about look vector
+6)j/J-rotate camera about v vector
+7)k/K-rotate camera about u vector
+8)e/E-changes camera target in x
+9)r/R-changes camera target in y
+10)t/T-changes camera target in z
+11)u/U-rotation about world axis-x
+12)v/V-rotation about world axis-y
+13)w/W-rotation about world axis-z
+14)+/-:zoom
+15)Arrow keys-translation in x & y
+16)Home and End-translation in z
+17)F1/F2-rotate about body x
+18)F3/F4-rotate about body y
+19)F5/F6-rotate about body z
+20)n/N:change camera upx
+21)m/M:change camera upy
+22)l/L:change camera upz
+
+
+For other mesh models google BrownMesh.This code can be used to view and transform other models.
+
+For running the code type make at terminal.Then type at terminal>>./viewer teapot.ifs
+
+Happy Coding :)
