@@ -1,4 +1,4 @@
 ComputerGraphics
 ================
 
-Programming Assignments of Computer Graphics course at IIT Ropar
+Programming Assignments of Introduction to Computer Graphics course at IIT Ropar.
