@@ -6,7 +6,7 @@ It doesn't have code for reflection since the input files didn't have any reflec
 
 To run program write on terminal in the program directory
 
-After unzipping folder
+After unzipping folder, in the current directory on the terminal:
 
 1)make
 
