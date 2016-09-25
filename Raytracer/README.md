@@ -1,4 +1,5 @@
-Raytracer with Phong Illumination model written in C++.
+Raytracer with Phong Illumination model for 3D rendering written in C++. 
+====
 
 This was a Computer Graphics course project at IIT Ropar.
 
