@@ -13,3 +13,7 @@ After unzipping folder, in the current directory on the terminal:
 2)./Raytracer filename.scene
 
 Current resolution set is 320x240 for fast rendering.Can be changed by changing the WIDTH and HEIGHT.
+
+There are different scene files.
+
+Eg: 3 spheres, A table, etc.
