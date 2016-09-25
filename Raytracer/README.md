@@ -1,6 +1,6 @@
 Raytracer with Phong Illumination model written in C++.
 
-This was a Computer Graphics course project.
+This was a Computer Graphics course project at IIT Ropar.
 
 It doesn't have code for reflection since the input files didn't have any reflectivity constants.
 
