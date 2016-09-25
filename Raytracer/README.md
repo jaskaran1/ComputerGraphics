@@ -7,7 +7,9 @@ It doesn't have code for reflection since the input files didn't have any reflec
 To run program write on terminal in the program directory
 
 After unzipping folder
+
 1)make
+
 2)./Raytracer filename.scene
 
 Current resolution set is 320x240 for fast rendering.Can be changed by changing the WIDTH and HEIGHT.
